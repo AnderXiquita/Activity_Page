@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --fitnes-color: #B8FFE2;
+    --swiming-color: #98FBFF;
+    --spa-color: #F3F3F3;
+    --golf-color: #F6B3B8;
+    --background-color: #0E0A1F;
+}
+
+/*-----------------------------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+a:hover {
+    border-bottom: 1px solid antiquewhite;
+}
+
+/*-----------------------------------
+
+contenedor {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+*/
+
+/* Main styles */
+
+.activity {
+    padding: 80px 0;
+}
+
+/* Header */
+
+#main-header {
+    height: 100vh;
+    background-color: var(--background-color);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 25px 0;
+}
+
+.contenedor-nav {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-nav h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    color: antiquewhite;
+}
+
+.contenedor-nav ul {
+    margin-left: 10px;
+    width: 300px;
+    min-width: 260px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-nav ul a {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: antiquewhite;
+}
+
+
+/* Showcase */
+
+#showcase {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-showcase {
+    width: 70%;
+    max-width: 1350px;
+    overflow: auto;
+    padding: 0 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-showcase h1 {
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 30px;
+    font-size: 6.5rem;
+    font-weight: 200;
+    color: antiquewhite;
+}
+
+.contenedor-showcase .showcase-grid {
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 165px;
+    gap: 20px;
+}
+
+.item1 {
+    background-color: var(--fitnes-color);
+    border-radius: 10px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1 h1 {
+    color: #0E0A1F;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.item1 img {
+    width: 135px;
+}
+
+.item2 {
+    background-color: var(--swiming-color);
+    border-radius: 10px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item2 h1 {
+    color: #0E0A1F;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.item2 img {
+    width: 135px;
+}
+
+.item3 {
+    background-color: var(--spa-color);
+    border-radius: 10px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item3 h1 {
+    color: #0E0A1F;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.item3 img {
+    width: 135px;
+}
+
+.item4 {
+    background-color: var(--golf-color);
+    border-radius: 10px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item4 h1 {
+    color: #0E0A1F;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.item4 img {
+    width: 135px;
+}
+
+/*----------------------------------
+  First section
+*/
+
+.container-fitnes {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitnes {
+    background-color: var(--fitnes-color);
+}
+
+.fitnes h4 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.fitnes-img {
+    padding: 0 30px;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitnes-img img {
+    min-width: 230px;
+    width: 70%;
+}
+
+.fitnes-text {
+    min-width:  336px;
+    width: 60%;
+    padding: 0 30px;
+}
+
+.fitnes-text p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+/*----------------------------------
+  Second section
+*/
+
+.container-swiming {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiming {
+    background-color: var(--swiming-color);
+}
+
+.swiming h4 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.swiming-img {
+    padding: 0 30px;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiming-img img {
+    min-width: 230px;
+    width: 70%;
+}
+
+.swiming-text {
+    min-width:  336px;
+    width: 60%;
+    padding: 0 30px;
+}
+
+.swiming-text p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/*----------------------------------
+  Third section
+*/
+
+.container-spa {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.spa {
+    background-color: var(--spa-color);
+}
+
+.spa h4 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.spa-img {
+    padding: 0 30px;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spa-img img {
+    min-width: 230px;
+    width: 70%;
+}
+
+.spa-text {
+    min-width:  336px;
+    width: 60%;
+    padding: 0 30px;
+}
+
+.spa-text p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+/*----------------------------------
+  Fourth section
+*/
+
+.container-golf {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.golf {
+    background-color: var(--golf-color);
+}
+
+.golf h4 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.golf-img {
+    padding: 0 30px;
+    width: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.golf-img img {
+    min-width: 230px;
+    width: 70%;
+}
+
+.golf-text {
+    min-width:  336px;
+    width: 60%;
+    padding: 0 30px;
+}
+
+.golf-text p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0E0A1F;
+    color: antiquewhite;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

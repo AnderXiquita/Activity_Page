@@ -1,0 +1,77 @@
+.contenedor-nav {
+    justify-content: center;
+}
+
+.contenedor-nav h1 {
+    margin-bottom: 5px;
+}
+
+.contenedor-showcase .showcase-title {
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+.contenedor-showcase {
+    width: 100%;
+}
+
+.contenedor-showcase .showcase-grid {
+    width: 100%;
+}
+
+.container-fitnes {
+    padding: 40px 0px;
+}
+
+.fitnes-text {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.fitnes-img {
+    padding: 0 20px;
+}
+
+
+
+
+.container-swiming {
+    padding: 40px 0px;
+}
+
+.swiming-text {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.swiming-img {
+    padding: 0 20px;
+}
+
+
+.container-spa {
+    padding: 40px 0px;
+}
+
+.spa-text {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.spa-img {
+    padding: 0 20px;
+}
+
+
+.container-golf {
+    padding: 40px 0px;
+}
+
+.golf-text {
+    width: 100%;
+    padding: 0 25px;
+}
+
+.golf-img {
+    padding: 0 20px;
+}
